@@ -1,0 +1,49 @@
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+
+# Virtual environments
+env/
+venv/
+ML/lib/python3.11/site-packages/
+ML_new/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyTorch / TensorFlow model files (large binaries)
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.tflite
+*.pb
+
+# Data files (if you store large datasets separately)
+*.csv
+*.tsv
+*.json
+*.npy
+*.npz
+
+# Logs
+*.log
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git LFS tracking placeholder (optional)
+*.bin
+*.dylib
+
